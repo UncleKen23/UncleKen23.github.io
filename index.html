@@ -1,14 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<title>Blog</title>
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <P>
-        Hello, my Blog!!!
-    </P>
+	<div class="main-wrapper">
+	<header> <!-- 页头开始 -->
+		<nav>
+			<div class="logo"><a href="#">Jason</a></div>
+			<ul>
+				<li><a href="#" class="active">首页</a></li>
+				<li><a href="#">分享</a></li>
+				<li><a href="#">日志</a></li>
+				<li class="side-trigger"><a href="#">菜单栏</a></li>
+			</ul>
+		</nav>
+		<div id="banner">
+			<div class="inner">
+				<h1>Jason</h1>
+				<p class="sub_content">
+					喜欢前端，专研前端，未来也希望能在这方向发展。
+				</p>
+				<button id="knowMe">了解我</button>
+				<div class="more">
+					更多
+				</div>
+			</div>
+		</div>
+	</header>  <!-- 页头结束 -->
+
+	<div id="content"> <!--  内容开始 -->
+		<section class="green-section">
+			<div class="wrapper">
+				<div>
+					<h1>求职意向</h1>
+					<div class="hr"></div>
+					<p class="sub_content">web前端开发 </p>
+				</div>
+				<div class="icon-group">
+					<span class="icon"><span class="icon-content">全职</span></span>
+					<span class="icon"><span class="icon-content">广州</span></span>
+					<span class="icon"><span class="icon-content">4k~6k</span></span>
+					<span class="icon"><span class="icon-content">随时到岗</span></span>
+				</div>
+			</div>
+		</section>
+		<section class="gray-section">
+			<div class="article-preview">
+				<div class="img-section">
+					<img src="img/Gui.jpg" alt="">
+				</div>
+				<div class="text-section">
+					<div class="text-part">
+						<h2>教育背景</h2>
+						<div class="sub_content	">
+							<span>2015.6~至今</span>
+							<span>广东科学技术职业学院</span>
+							<span>软件技术</span>
+						</div>
+						<p>担任班级班长，曾获得优秀班长职称，也算一名优秀毕业生</p>
+					</div>
+				</div>
+			</div>
+			<div class="article-preview">
+				<div class="text-section">
+					<div class="text-part">
+						<h2>工作经验</h2>
+						<div class="sub_content	">
+							<span>2018.1~2018.6</span>
+							<span>珠海唯美科技网络公司</span>
+							<span>web前端开发</span>
+						</div>
+						<p>主要负责公司项目的页面开发，梳妆台小程序，是一个以用户注册便为店家，<br>卖化妆品为特点的b2c商城，参与里面的功能开发。</p>
+						<p>也做过h5活动页面，定期在app里发布</p>
+					</div>
+				</div>
+				<div class="img-section" >
+					<img src="img/HaiTun.jpg" alt="">
+				</div>
+			</div>
+			<div class="article-preview">
+				<div class="img-section">
+					<img src="img/fish.jpg" alt="">
+				</div>
+				<div class="text-section">
+					<div class="text-part">
+						<h2>项目经历</h2>
+						<div class="sub_content	">个人简历</div>
+						<p>借用github.io,搭建一个个人博客，申请一个github账号，添加一个repository，并命名为uncleken23.github.io。<br>
+							然后制作一个html5网页，通过git上传到该远程库。<br>
+							相关链接：<a href="https://uncleken23.github.io" style="text-decoration: none;color: #333;">https://uncleken23.github.io</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="purple-section">
+			<div class="wrapper">
+				<div class="head-wrapper">
+					<h2>技能特长</h2>
+					<div class="hr"></div>
+					<div class="sub_content">
+						学无止境，只有不断去学习，才能获得进步，也许我的技术很差，但相反代表了我的进步空间还很大，所以Keep learning。
+					</div>
+				</div>
+				<div class="card-group clearfix">
+					<div class="card">
+						<h3>html5</h3>
+						<p>掌握基本语义化标签的运用，理解盒子模型理念</p>
+					</div>
+					<div class="card">
+						<h3>css3</h3>
+						<p>遵循bem命名类，按照设计图渲染出相同的设计</p>
+					</div>
+					<div class="card">
+						<h3>JavaScript</h3>
+						<p>基本熟练dom操作，友好完成功能性交互，熟悉运用ajax获取后台数据</p>
+					</div>
+					<div class="card">
+						<h3>JQuery</h3>
+						<p>熟悉运用JQuery开发，友好封装dom的JavaScript库，也有许多功能很好的JQuery插件库，加快开发进程</p>
+					</div>
+					<div class="card">
+						<h3>Vue</h3>
+						<p>了解vue.js框架的语法糖，懂得vue+vue-loader+vuex+axios基础开发，，友好地实现数据双向绑定以及组件化开发；</p>
+					</div>
+					<div class="card">
+						<h3>微信小程序</h3>
+						<p>熟悉小程序api，也参与过线上项目开发，对于开发流程有一定的了解</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>   <!--  内容结束 -->
+
+	<footer>  <!-- 页脚开始 -->
+		<ul class="share-group">
+			<li>Github</li>
+			<li>Git</li>
+			<li>IMOOC</li>
+			<li>W3CSchool</li>
+		</ul>
+
+		<div class="copy">
+			&copy Jason
+		</div>
+	</footer> <!-- 页脚结束 -->
+	</div>
+	
+	<div class="mask">	
+	</div>
+	<div id="sidebar">
+		<ul>
+			<li><a href="https://github.com/">Github</a></li>
+			<li><a href="https://git-scm.com/">Git</a></li>
+			<li><a href="https://www.imooc.com/">IMOOC</a></li>
+			<li><a href="http://www.w3school.com.cn/">W3CSchool</a></li>
+		</ul>
+	</div>
+	<button class="back-to-top">返回顶部</button>
+	<script src="js/jquery-3.1.1.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
