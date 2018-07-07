@@ -131,8 +131,9 @@ button{
 	color: #fff;
 }
 
-.article-preview > div{
-	float: left;
+.article-preview{
+	display: flex;
+	align-items: center;
 	font-size: 0;
 }
 
@@ -142,12 +143,13 @@ button{
 
 .gray-section .img-section img{
 	width: 100%;
+	height: 20rem;
 }
 
 .gray-section .text-section{
 	width: 55%;
 	position: relative;
-	height: 278px;
+	height: 20rem;
 }
 
 .article-preview::after{
@@ -169,7 +171,7 @@ button{
 }
 .gray-section .text-section .text-part p{
 	font-size: 1rem;
-	line-height: 2;
+	line-height: 1.5;
 }
 
 h2{
